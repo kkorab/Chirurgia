@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chirurgia jednego dnia - Ebert & Zachara</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+        integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header>
+        <div class="header-info">
+            <div class="container">
+                <div class="header-flex">
+                    <div class="header-address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3><a class="address"
+                                href="https://www.google.pl/maps/place/Chirurgia+Jednego+Dnia+T.+Ebert+Sz.+Zachara+Sp.J./@52.7416394,15.231081,15z/data=!4m8!1m2!2m1!1schirurgia+jednego+dnia!3m4!1s0x0:0xf538c3e6367142ee!8m2!3d52.7370355!4d15.2365324">Borowskiego
+                                2A-3 Gorzów Wielkopolski</a></h3>
+                    </div>
+                    <div class="header-phone">
+                        <i class="fas fa-phone"></i>
+                        <a class="phone" href="tel:95-7207-7890">tel. 95 7 207 510</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <nav class="header-nav">
+            <div class="container">
+                <div class="nav-cnt">
+                    <div class="nav-logo">
+                        <div class="logo">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="logo-text">
+                            <h1 class="logo-headline">Chirurgia jednego dnia</h1>
+                            <h2 class="logo-subheadline">Tomasz Ebert & Szymon Zachara</h2>
+                        </div>
+                    </div>
+                    <ul class="nav-menu">
+                        <li class="menu-item"><a class="menu-link" href="index.html">Aktualności</a></li>
+                        <li class="menu-item"><a class="menu-link" href="o-nas.html">O nas</a></li>
+                        <li class="menu-item active"><a class="menu-link" href="cennik.html">Cennik</a></li>
+                        <li class="menu-item"><a class="menu-link" href="kontakt.html">Kontakt</a></li>
+                        <li class="menu-item"><a class="menu-link" href="jak-dojechac.html">Jak dojechać</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="cennik">
+            <header class="section-header">
+                <div class="container">
+                    <h1 class="section-headline">Cennik</h1>
+                </div>
+            </header>
+            <div class="container">
+                <div class="information reveal">
+                    <p>Inforujemy, iż do ceny każdego zabiegu doliczana jest kwota 100zł w ramach konsultacji specjalistycznej. Dodatkowo cenę zabiegu ostatecznie ustala lekarz prowadzący, gdyż może się ona różnić w zależności od konkretnego przypadku, bądź liczby zabiegów.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="categories-cnt">
+                    <div class="category reveal">
+                        <img src="img/pexels-pixabay-40568.jpg" alt="">
+                        <div class="category-headline">Onkologia</div>
+                        <div class="category-desc">Zmiany skórne, biopsja, USG, inne.</div>
+                        <a href="#onkologia" class="category-btn">więcej</a>
+                    </div>
+                    <div class="category reveal">
+                        <img src="img/pexels-gustavo-fring-4173239.jpg" alt="">
+                        <div class="category-headline">Flebologia</div>
+                        <div class="category-desc">Żylaki kończyn dolnych, RFITT, USG żylne, przepływy inne.</div>
+                        <a href="#flebologia" class="category-btn">więcej</a>
+                    </div>
+                    <div class="category reveal">
+                        <img src="img/pexels-evg-culture-1170979.jpg" alt="">
+                        <div class="category-headline">Chirurgia ogólna</div>
+                        <div class="category-desc">Przepuklina, mała plastyka.</div>
+                        <a href="#chirurgia" class="category-btn">więcej</a>
+                    </div>
+                </div>
+                <div class="price-list reveal">
+                    <table>
+                        <tr class="table-main-header">
+                            <th>Zabieg:</th>
+                            <th>Cena od:</th>
+                            <th>Cena do:</th>
+                        </tr>
+                        <tr  id="onkologia" class="table-category-header">
+                            <th colspan="3">Onklogia</th>
+                        </tr>
+                        <tr>
+                            <td>Konsultacja</td>
+                            <td>250 PLN</td>
+                            <td>250 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Zakładanie portów do chemioterapii lub kontaktu centralnego</td>
+                            <td>3000 PLN</td>
+                            <td>3000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Wycięcie nowotworu wargi lub bez rekonstrukcji płatem z sąsiedztwa</td>
+                            <td>4000 PLN</td>
+                            <td>4000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Wycięcie chirurgiczne 1 zmiany skórnej/tkanki podskórnej
+                                z okolicy tułowia/kończyn/skóry owłosionej głowy
+                                w znieczuleniu miejscowym
+                                </td>
+                            <td>400 PLN</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Wycięcie kolejnej zmiany (średnicy do 1cm)
+                                na tułowiu/kończynie w trakcie tego samego zabiegu
+                                </td>
+                            <td>200 PLN</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Wycięcie guza piersi w znieczuleniu miejscowym.</td>
+                            <td>1500 PLN</td>
+                            <td>2500 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Wycięcie guza piersi w znieczuleniu ogólnym (sedacji) </td>
+                            <td>2500 PLN</td>
+                            <td>3500 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Wycięcie gangliona </td>
+                            <td>400 PLN</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Wizyta kontrolna po zabiegu (usunięcie szwów, opatrunek)
+                                do całkowitego zagojenia rany.</td>
+                            <td>bezpłatna</td>
+                            <td>bezpłatna</td>
+                        </tr>
+                        <tr id="flebologia" class="table-category-header">
+                            <th colspan="3">Flebologia</th>
+                        </tr>
+                        <tr>
+                            <td>Konsultacja</td>
+                            <td>250 PLN</td>
+                            <td>250 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>USG</td>
+                            <td>200 PLN</td>
+                            <td>200 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Laserowe usuwanie zmian naczyniowych</td>
+                            <td>200 PLN</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>skleroterapia endowaskularna pianą pod kontrolą USG</td>
+                            <td>1000 PLN</td>
+                            <td>2500 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Laserowe usuwanie żylaków (jedna noga)</td>
+                            <td></td>
+                            <td>5 000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Laserowe usuwanie żylaków (obie nogi)</td>
+                            <td></td>
+                            <td>9 000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Skleroterapia kompresyjna</td>
+                            <td>500 PLN</td>
+                            <td>1000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Klejenie żył (VanaSeal)</td>
+                            <td>3500 PLN</td>
+                            <td>7000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Klejenie żył (VanaBlock)</td>
+                            <td>3500 PLN</td>
+                            <td>8000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Operacja usuwania żylaków</td>
+                            <td>4000 PLN</td>
+                            <td>4000 PLN</td>
+                        </tr>
+                        <tr id="chirurgia" class="table-category-header">
+                            <th colspan="3">Chirurgia ogólna</th>
+                        </tr>
+                        <tr class="table-category-subheader">
+                            <th colspan="3">Cennik procedur ambulatoryjnych Chirurgii Jednego Dnia:</th>
+                        </tr>
+                        <tr>
+                            <td>Konsultacja</td>
+                            <td>250 PLN</td>
+                            <td>250 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Porada specjalistyczna z USG</td>
+                            <td>350 PLN</td>
+                            <td>350 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Biopsja aspiracyjna cienkoigłowa pod kontrolą USG</td>
+                            <td>350 PLN</td>
+                            <td>350 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Opróźnienie torbieli pod kontrolą USG</td>
+                            <td>200 PLN</td>
+                            <td>200 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Biopsja gruboigłowa z pełnym badaniem histopatologicznym pod kontrolą USG</td>
+                            <td>750 PLN</td>
+                            <td>750 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Usunięcie zmiany skórnej tułowia</td>
+                            <td>350 PLN</td>
+                            <td>350 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Usunięcie zmiany skórnej głowy i szyi</td>
+                            <td>400 PLN</td>
+                            <td>400 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Usunięcie licznych zmian (>3 sztuk) bez względu na umiejscowienie</td>
+                            <td>250 PLN</td>
+                            <td>250 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Usunięcie tłuszczaka na tułowiu i szyi</td>
+                            <td>400 PLN</td>
+                            <td>400 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Usunięcie tłuszczaka wymagające znieczulenia ogólnego</td>
+                            <td>1500 PLN</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Wycięcie wrastającego paznokcia (jeden palec)</td>
+                            <td>350 PLN</td>
+                            <td>350 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Wycięcie wrastającego paznokcia (dwa palce)</td>
+                            <td>600 PLN</td>
+                            <td>600 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Rekonstrukcja płatka ucha</td>
+                            <td>750 PLN</td>
+                            <td>750 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Rekonstrukcja obydwu płatków uszu</td>
+                            <td>1400 PLN</td>
+                            <td>1400 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Usunięcie rozległej zmiany skórnej z przeszczepem skóry</td>
+                            <td>1200 PLN</td>
+                            <td>1600 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Zszycie rany z chirurgicznym opracowaniem</td>
+                            <td>350 PLN</td>
+                            <td>350 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Wycięcie zakrzepu splotu żylnego okołoodbytniczego</td>
+                            <td>500 PLN</td>
+                            <td>500 PLN</td>
+                        </tr>
+                        <tr class="table-category-subheader">
+                            <th colspan="3">Cennik procedur zabiegowych w warunkach bloku operacyjnego:</th>
+                        </tr>
+                        <tr>
+                            <td>Operacja ginekomastii (jedna strona)</td>
+                            <td>3000 PLN</td>
+                            <td>3500 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Operacja ginekomastii (obustronnie)</td>
+                            <td>5000 PLN</td>
+                            <td>6000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Obżezanie, operacja załupka, szycie rany prącia</td>
+                            <td>2000 PLN</td>
+                            <td>2500 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Wycięcie torbieli włosowej</td>
+                            <td>2000 PLN</td>
+                            <td>2000 PLN</td>
+                        </tr>
+                        <tr class="table-category-subheader">
+                            <th colspan="3">Operacja przepuklin z użyciem wszczepu syntetycznego</th>
+                        </tr>
+                        <tr>
+                            <td>Pachwinowej</td>
+                            <td>4000 PLN</td>
+                            <td>4000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Kresy białej</td>
+                            <td>4000 PLN</td>
+                            <td>4000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Pępkowej</td>
+                            <td>4000 PLN</td>
+                            <td>4000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Operacja przepukliny pooperacyjnej w zależności od rozległości zabiegu</td>
+                            <td>4000 PLN</td>
+                            <td>6000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Zylaki odbytu</td>
+                            <td>2500 PLN</td>
+                            <td>2500 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Szczelina odbytu</td>
+                            <td>2500 PLN</td>
+                            <td>2500 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Operacyjne leczenie przetoki okołoodbytniczej</td>
+                            <td>3500 PLN</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Plastyka wciągniętej brodawki sutkowej</td>
+                            <td>2000 PLN</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Biopsja otwarta narządowa sutka z pełną diagnostyką</td>
+                            <td>2500 PLN</td>
+                            <td>2500 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Usunięcie kwadrantu sutka z pełną diagnostyką</td>
+                            <td>3000 PLN</td>
+                            <td>3000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Usunięcie radykalne piersi z pełną diagnostyką</td>
+                            <td>5500 PLN</td>
+                            <td>5550 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Usunięcie nowotworu piersi oszczędzające pierś (BCT)</td>
+                            <td>6000 PLN</td>
+                            <td>6000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Proste usunięcie piersi</td>
+                            <td>4000 PLN</td>
+                            <td>4000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Usunięcie wszczepu piersi (jednostronne)</td>
+                            <td>3500 PLN</td>
+                            <td>3500 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Usunięcie wszczepu piersi (obustronne)</td>
+                            <td>5000 PLN</td>
+                            <td>5000 PLN</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="menu-cnt">
+                <div class="footer-menu-left">
+                    <ul class="footer-menu">
+                        <li class="footer-menu-item"><a class="footer-link" href="index.html">Aktualności</a></li>
+                        <li class="footer-menu-item"><a class="footer-link" href="index.html">Informacje dla pacjenta</a></li>
+                        <li class="footer-menu-item"><a class="footer-link" href="jak-dojechac.html">Mapa dojazdu</a></li>
+                        <li class="footer-menu-item"><a class="footer-link" href="kontakt.html">Zapisz się na wizytę</a></li>
+                        <li class="footer-menu-item"><a class="footer-link" href="cennik.html">Cennik</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu-right">
+                    <ul class="footer-menu">
+                        <li class="footer-menu-item"><a class="footer-link" href="cennik.html#onkologia">Onkologia</a></li>
+                        <li class="footer-menu-item"><a class="footer-link" href="cennik.html#flebologia">Flebologia</a></li>
+                        <li class="footer-menu-item"><a class="footer-link" href="cennik.html#chirurgia">Chirurgia ogólna</a></li>
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/KlinikaChirurgiiJednegoDnia/"><i
+                                    class="fab fa-facebook-f "></i></a>
+                            <a href="https://www.facebook.com/KlinikaChirurgiiJednegoDnia/"><i
+                                    class="fab fa-instagram "></i></a>
+
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <h2 class="footer-info">Wszelkie prawa zastrzeżone &copy;</h2>
+        <h3 class="sub-info">Chirurgia jednego dnia Tomasz Ebert & Szymon Zachara.</h3>
+
+    </footer>
+
+    <script src="main.js" defer></script>
+</body>
+
+</html>
